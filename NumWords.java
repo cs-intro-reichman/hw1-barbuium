@@ -4,8 +4,8 @@ public class NumWords {
         int number1 = Integer.parseInt(args[0]);
 
        int hundreds = number1 / 100;
-       int tens = (number / 10) % 10;  
-       int ones = number % 10; 
+       int tens = (number1 / 10) % 10;  
+       int ones = number1 % 10; 
        System.out.println(hundreds + " hundreds, " + tens + " tens, and " + ones + " ones." );
        
     }
