@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "type": "java",
+            "name": "Ascend",
+            "request": "launch",
+            "mainClass": "Ascend",
+            "projectName": "hw1-barbuium",
+            "args": ["100"]
+        },
+        {
+            "type": "java",
+            "name": "Bill3",
+            "request": "launch",
+            "mainClass": "Bill3",
+            "projectName": "hw1-barbuium",
+            "args": ["Ron", "Lisa", "Dan", "100"]
+        },
+        {
+            "type": "java",
+            "name": "FVcalc",
+            "request": "launch",
+            "mainClass": "FVcalc",
+            "projectName": "hw1-barbuium",
+            "args": ["100", "10", "2"]
+        },
+        {
+            "type": "java",
+            "name": "NumWords",
+            "request": "launch",
+            "mainClass": "NumWords",
+            "projectName": "hw1-barbuium",
+            "args": [100]
+        },
+        {
+            "type": "java",
+            "name": "TimeFormat",
+            "request": "launch",
+            "mainClass": "TimeFormat",
+            "projectName": "hw1-barbuium",
+            "args": ["10:15"]
+        },
+    ]}
