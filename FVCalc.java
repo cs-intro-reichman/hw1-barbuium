@@ -1,5 +1,9 @@
 public class FVcalc {
     public static void main(String[] args) {
+        if (args.length != 3) {
+            System.out.println("Usage: java FVCalc <currentValue> <interestRate> <years>");
+            return;
+        }
         int currentValue = Integer.parseInt(args [0]);
         double rate = Double.parseDouble(args [1]);
         int n = Integer.parseInt(args [2]);
