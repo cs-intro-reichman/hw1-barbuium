@@ -5,7 +5,7 @@ public class TimeFormat {
             String[] timePart = time.split(":");
             int hour = Integer.parseInt(timePart[0]);  
             int minute = Integer.parseInt(timePart[1]);
-            String ampm = (hour < 12) ? "AM" : "PM";
+            String amPM = (hour < 12) ? "AM" : "PM";
             
             if (hour == 0) {
                 hour = 12;
@@ -20,7 +20,7 @@ public class TimeFormat {
                       formattedMinute = String.valueOf(minute); 
                   }
 
-                  System.out.println(hour + ":" + formattedMinute + " " + ampm);
+                  System.out.println(hour + ":" + formattedMinute + " " + amPM);
         }
     }
 
